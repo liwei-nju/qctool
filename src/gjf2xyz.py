@@ -35,7 +35,7 @@ if nargv == 2:
         print "-v			Print version information and exit"
         sys.exit(1)
     elif argv == '-v' or argv == '--version':
-        print "Version 0.01 (11 Aug 2010, 12:28)"
+        print "Version 0.02 (1 Feb 2018)"
         sys.exit(1)
     elif argv[0] != '-':
         FILLST.append(argv)
